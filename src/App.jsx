@@ -44,7 +44,7 @@ function App() {
           <div className="popup-content">
             <h2>{selectedMood.name}</h2>
             <p>{selectedMood.verse}</p>
-            <p>Reference: {selectedMood.reference}</p>
+            <p>{selectedMood.reference}</p>
             <button onClick={handleClosePopup}>Close</button>
           </div>
         </div>
