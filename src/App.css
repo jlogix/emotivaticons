@@ -25,6 +25,7 @@
   background-size: cover;
   background-position: center;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  transition: opacity 0.3s ease;
 }
 
 .mood-tile:hover {
@@ -92,7 +93,7 @@
 }
 
 .popup-content {
-  background-image: linear-gradient(to bottom right, #f0f0f0, #ccc000);
+  background-image: linear-gradient(to bottom right, #fff0e0, #ffffcc);
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -100,6 +101,8 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #333;
+  width: 400px;
+  margin: 0 auto;
 }
 
 .popup-content h2 {
@@ -107,4 +110,21 @@
   font-size: 20px;
   font-weight: 700;
   color: #333;
+}
+
+.popup-content p {
+  margin-bottom: 10px; /* Added margin for better spacing */
+}
+
+.popup-content p:first-of-type { /* Style the first <p> (verse) in italics */
+  font-style: italic;
+}
+
+.popup-content button {
+  background-color: #4682b4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
