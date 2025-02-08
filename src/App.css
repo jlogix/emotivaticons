@@ -12,7 +12,7 @@
 }
 
 .mood-tile {
-  background-color: #f7f7f7;
+  background-size: cover;
   padding: 20px;
   margin: 10px;
   border: 1px solid #ddd;
@@ -23,10 +23,59 @@
   font-size: 16px;
   font-weight: 600;
   color: #333;
+  background-position: center;
 }
 
 .mood-tile:hover {
-  background-color: #e5e5e5;
+  opacity: 0.8;
+}
+
+.happy {
+  background-image: url('https://source.unsplash.com/400x200/?happy,nature');
+}
+
+.sad {
+  background-image: url('https://source.unsplash.com/400x200/?sad,alone');
+}
+
+.angry {
+  background-image: url('https://source.unsplash.com/400x200/?angry,stormy');
+}
+
+.fearful {
+  background-image: url('https://source.unsplash.com/400x200/?fearful,dark');
+}
+
+.grateful {
+  background-image: url('https://source.unsplash.com/400x200/?grateful,thankful');
+}
+
+.excited {
+  background-image: url('https://source.unsplash.com/400x200/?excited,celebration');
+}
+
+.tired {
+  background-image: url('https://source.unsplash.com/400x200/?tired,sleepy');
+}
+
+.stressed {
+  background-image: url('https://source.unsplash.com/400x200/?stressed,overwhelmed');
+}
+
+.hopeful {
+  background-image: url('https://source.unsplash.com/400x200/?hopeful,inspirational');
+}
+
+.lonely {
+  background-image: url('https://source.unsplash.com/400x200/?lonely,alone');
+}
+
+.confused {
+  background-image: url('https://source.unsplash.com/400x200/?confused,puzzled');
+}
+
+.overwhelmed {
+  background-image: url('https://source.unsplash.com/400x200/?overwhelmed,busy');
 }
 
 .popup {
