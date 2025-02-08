@@ -92,7 +92,7 @@
 }
 
 .popup-content {
-  background-image: linear-gradient(to bottom right, #f0f0f0, #ffffff);
+  background-image: linear-gradient(to bottom right, #f0f0f0, #ccc000);
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 10px;
